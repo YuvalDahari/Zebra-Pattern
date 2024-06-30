@@ -10,12 +10,25 @@ Clone the repository:
 ```bash
 git clone https://github.com/YuvalDahari/Zebra-Pattern.git
 ```
-## Install dependencies:
-```bash
-pip install tkinter matplotlib
-```
-
-Run the script zebra_pattern.py to start the simulation. The script initializes a grid where cells change color based on specific rules, aiming to achieve a zebra-like pattern.
+### Option 1: Running the Executable
+1. Navigate to the dist folder:
+   ```bash
+    cd Zebra-Pattern/dist
+    ```
+2. Run the executable:
+   ```bash
+    ./main.exe
+    ```
+## Option 2: Running the Script Directly
+1. Install dependencies:
+  ```bash
+  pip install tkinter matplotlib
+  ```
+2. Run the script main.py to start the simulation:
+     ```bash
+    python main.py
+    ```
+ The script initializes a grid where cells change color based on specific rules, aiming to achieve a zebra-like pattern.
 
 ## Cellular Automaton Details
 *Objective*: Create a preference for a pattern of alternating stripes, i.e., a "white" column, a "black" column, a "white" column, etc.
