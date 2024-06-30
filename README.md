@@ -8,7 +8,7 @@ This Python script simulates a cellular automaton to create a zebra-like stripe 
 ## Installation
 Clone the repository:
 ```bash
-git clone <repository_url>
+git clone https://github.com/YuvalDahari/Zebra-Pattern.git
 ```
 ## Install dependencies:
 ```bash
@@ -41,7 +41,7 @@ Counts the number of cells that do not match the colors of their horizontal neig
 ### Vertical Consistency:
 Counts the number of cells that match the colors of their vertical neighbors.
 The final measure is the average of the horizontal and vertical consistency counts.
-## Controls
+### Controls
 **Update Board**: Manually update the board once.
 **Play**: Start continuous updates.
 **Stop**: Pause the simulation.
